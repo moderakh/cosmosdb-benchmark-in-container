@@ -4,7 +4,7 @@
 2. inside the folder run the following to build:
 ```bash
 cd src
-docker build benchmark-test
+docker build . -t benchmark-test
 ```
 3. runt the following to run:
 ```bash
