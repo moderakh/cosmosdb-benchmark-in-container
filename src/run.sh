@@ -8,12 +8,13 @@ concurrency=$2
 #    exit 2
 #fi
 
-if [ -z "$3" ]
-then
-      connectionMode=Direct
-else
-      connectionMode=$3
-fi
+#if [ -z "$3" ]
+#then
+#      connectionMode=Direct
+#else
+#      connectionMode=$3
+#fi
+connectionMode=Direct
 
 numberOfPreCreatedDocuments=100
 consistencyLevel="Eventual"
