@@ -3,10 +3,10 @@
 operation=$1
 concurrency=$2
 
-if [[ $# -lt 2 ]]; then
-    echo "Illegal number of parameters"
-    exit 2
-fi
+#if [[ $# -lt 2 ]]; then
+#    echo "Illegal number of parameters"
+#    exit 2
+#fi
 
 if [ -z "$3" ]
 then
